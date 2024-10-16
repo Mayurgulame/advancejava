@@ -1,0 +1,11 @@
+127.0.0.1 - - [14/Jun/2024:16:37:01 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:16:37:03 +0530] "GET /SpringMVCCust/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:16:37:10 +0530] "GET /SpringMVCCust/customer/list HTTP/1.1" 200 1309
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:16:37:10 +0530] "GET /SpringMVCCust/resources/css/style.css HTTP/1.1" 404 742
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:16:37:11 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:16:37:17 +0530] "GET /SpringMVCCust/customer/showFormForAdd HTTP/1.1" 200 1006
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:16:37:17 +0530] "GET /SpringMVCCust/resources/css/style.css HTTP/1.1" 404 742
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:16:37:33 +0530] "POST /SpringMVCCust/customer/saveCustomer HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:16:37:33 +0530] "GET /SpringMVCCust/customer/list HTTP/1.1" 200 1729
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:16:37:33 +0530] "GET /SpringMVCCust/resources/css/style.css HTTP/1.1" 404 742
+0:0:0:0:0:0:0:1 - - [14/Jun/2024:16:37:48 +0530] "GET /SpringMVCCust/customer/delete?customerId=3 HTTP/1.1" 404 764

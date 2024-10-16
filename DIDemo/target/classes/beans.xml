@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="humanHeart" class="example.spring.Heart">
+        <property name="nameOfAnimal" value="Human"/>
+        <property name="noOfHearts" value="1"/>
+        <property name="id" value="H001"/>
+        <property name="value" value="Human Heart"/>
+    </bean>
+
+    <bean id="octopusHeart" class="example.spring.Heart">
+        <property name="nameOfAnimal" value="Octopus"/>
+        <property name="noOfHearts" value="3"/>
+        <property name="id" value="O001"/>
+        <property name="value" value="Octopus Heart"/>
+    </bean>
+
+    <!-- Define the Human bean with singleton scope -->
+    <bean id="singletonHuman" class="example.spring.Human" scope="singleton">
+        <property name="heart" ref="humanHeart"/>
+    </bean>
+
+    <!-- Define the Human bean with prototype scope -->
+    <bean id="prototypeHuman" class="example.spring.Human" scope="prototype">
+        <property name="heart" ref="humanHeart"/>
+    </bean>
+
+</beans>

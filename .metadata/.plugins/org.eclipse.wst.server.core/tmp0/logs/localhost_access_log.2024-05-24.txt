@@ -1,0 +1,11 @@
+127.0.0.1 - - [24/May/2024:20:01:53 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [24/May/2024:20:01:55 +0530] "GET /spring-form-tags/ HTTP/1.1" 200 178
+0:0:0:0:0:0:0:1 - - [24/May/2024:20:02:00 +0530] "GET /spring-form-tags/student/showform HTTP/1.1" 404 768
+127.0.0.1 - - [24/May/2024:20:06:46 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [24/May/2024:20:06:48 +0530] "GET /spring-form-tags/ HTTP/1.1" 200 178
+0:0:0:0:0:0:0:1 - - [24/May/2024:20:06:51 +0530] "GET /spring-form-tags/student/showform HTTP/1.1" 404 768
+127.0.0.1 - - [24/May/2024:20:07:19 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [24/May/2024:20:07:21 +0530] "GET /spring-form-tags/ HTTP/1.1" 200 178
+0:0:0:0:0:0:0:1 - - [24/May/2024:20:07:24 +0530] "GET /spring-form-tags/student/showform HTTP/1.1" 200 464
+0:0:0:0:0:0:0:1 - - [24/May/2024:20:07:31 +0530] "POST /spring-form-tags/student/details HTTP/1.1" 404 768
+0:0:0:0:0:0:0:1 - - [24/May/2024:20:11:40 +0530] "POST /spring-form-tags/student/details HTTP/1.1" 200 209
